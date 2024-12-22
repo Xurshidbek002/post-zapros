@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-400 pb-5">
+    <div class="container mx-auto max-w-screen-md mt-20 px-5 flex flex-col items-center relative">
+      <p class="text-center p-3 pt-7 bg-slate-700 text-white rounded-xl" id="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+        voluptatem corrupti asperiores, reiciendis veritatis repellendus
+        voluptate sapiente cumque laudantium quos.
+      </p>
+      <button
+        onclick="copyText()"
+        id="btn"
+        class="px-5 py-[0px] bg-black text-white rounded-tr-xl rounded-bl-md mt-5 absolute right-[20px]  top-[-20px]  "
+      >
+        Copy 
+        <i id="copy" class="fa-solid fa-copy"></i>
+      </button>
+    </div>
+
+
+    <section class="container mx-auto max-w-screen-md mt-20 px-5" >
+      <ul class="grid grid-cols-3 gap-4 relative" id="list">
+        
+      </ul>
+    </section>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- https://realauto.limsa.uz/api/uploads/images/ -->
